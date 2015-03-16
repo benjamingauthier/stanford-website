@@ -1,117 +1,236 @@
-<?php
-	// ========== Enter your email address here ========== //
-	$to = "YOUR EMAIL";
-	
-	// Clean up the input values
-	foreach($_POST as $key => $value) {
-		if(ini_get('magic_quotes_gpc'))
-			$_POST[$key] = stripslashes($_POST[$key]);
+<?php include('header.php') ?>
 		
-		$_POST[$key] = htmlspecialchars(strip_tags($_POST[$key]));
-	}
-	
-	// Assign the input values to variables for easy reference
-	$name = $_POST["name"];
-	$email = $_POST["email"];
-	$subject = $_POST["subject"];
-	$message = $_POST["message"];
-	
-	// Check input values for errors
-	$errors = array();
-	if(strlen($name) < 2) {
-		if(!$name) {
-			$errors[] = "Please enter your name!";
-		} else {
-			$errors[] = "Name requires at least 2 characters!";
-		}
-	}
-	if(!$email) {
-		$errors[] = "Please enter your email!";
-	} else if(!validEmail($email)) {
-		$errors[] = "Please enter a valid email!";
-	}
-	if(strlen($message) < 10) {
-		if(!$message) {
-			$errors[] = "Please enter a message!";
-		} else {
-			$errors[] = "Message requires at least 10 characters!";
-		}
-	}
-	
-	// Output error message(s)
-	if($errors) {
-		$errortext = "";
-		foreach($errors as $error) {
-			$errortext .= "<li>".$error."</li>";
-		}
-		die("<ul class='errors arrowed'>". $errortext ."</ul>
-			<a href='javascript:history.go(0)' class='btn'><i class='icon-left-1'></i> Back</a>");
-	}
-	
-	// Send the email
-	if($subject!=""){
-		$subject = "Contact Form: $subject";
-	}
-	else {
-		$subject = "Contact Form: $name";
-	}
-	$message = "$message";
-	$headers = "From: ".$name." <".$email.">" . "\r\n" . "Reply-To: " . $email;
-	
-	mail($to, $subject, $message, $headers);
-	
-	// Output success message
-	die("<p class='success'>Thank you! – Your message has been successfully sent!</p>");
-	
-	// Check if email is valid
-	function validEmail($email) {
-		$isValid = true;
-		$atIndex = strrpos($email, "@");
-		if (is_bool($atIndex) && !$atIndex)	{
-			$isValid = false;
-		}
-		else {
-			$domain = substr($email, $atIndex+1);
-			$local = substr($email, 0, $atIndex);
-			$localLen = strlen($local);
-			$domainLen = strlen($domain);
-			if ($localLen < 1 || $localLen > 64) {
-				// Local part length exceeded
-				$isValid = false;
-			}
-			else if ($domainLen < 1 || $domainLen > 255) {
-				// Domain part length exceeded
-				$isValid = false;
-			}
-			else if ($local[0] == '.' || $local[$localLen-1] == '.') {
-				// Local part starts or ends with '.'
-				$isValid = false;
-			}
-			else if (preg_match('/\\.\\./', $local)) {
-				// Local part has two consecutive dots
-				$isValid = false;
-			}
-			else if (!preg_match('/^[A-Za-z0-9\\-\\.]+$/', $domain)) {
-				// Character not valid in domain part
-				$isValid = false;
-			}
-			else if (preg_match('/\\.\\./', $domain)) {
-				// Domain part has two consecutive dots
-				$isValid = false;
-			}
-			else if(!preg_match('/^(\\\\.|[A-Za-z0-9!#%&`_=\\/$\'*+?^{}|~.-])+$/',
-			str_replace("\\\\","",$local))) {
-				// Character not valid in local part unless local part is quoted
-				if (!preg_match('/^"(\\\\"|[^"])+"$/',
-				str_replace("\\\\","",$local))) {
-					$isValid = false;
-				}
-			}
-			if ($isValid && !(checkdnsrr($domain,"MX") || checkdnsrr($domain,"A"))) {
-				// Domain not found in DNS
-				$isValid = false;
-			}
-		}
-		return $isValid;
-	}
-?>
+		<!-- ============================================================= MAIN ============================================================= -->
+		
+		<main>
+			
+			<!-- ============================================================= SECTION – MAP ============================================================= -->
+			
+			<section id="map" class="height-sm"></section>
+			
+			<!-- ============================================================= SECTION – MAP : END ============================================================= -->
+			
+			
+			<!-- ============================================================= SECTION – HERO ============================================================= -->
+			
+			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(assets/images/art/slider02.jpg);">
+				<div class="container inner-top-md inner-bottom-sm">
+					<div class="row">
+						
+						<div class="col-md-8 inner-right inner-bottom-xs">
+							<header>
+								<h1>Contactez nous</h1>
+								<p>Vous désirez un renseignement ? N'hésitez pas à nous contacter !</p>
+							</header>
+						</div><!-- /.col -->
+						
+						<div class="col-md-4">
+							<h3 style="margin-top: 8px;">Mink S.A.S.</h3>
+							<ul class="contacts">
+								<li><i class="icon-location contact"></i> 50 Rue Bouffard, 33000 Bordeaux</li>
+								<li><i class="icon-mobile contact"></i> 05 56 07 23 91</li>
+								<li><a href="mailto:info@study.com"><i class="icon-mail-1 contact"></i> info@study.com</a></li>
+							</ul><!-- /.contacts -->
+						</div><!-- /.col -->
+						
+					</div><!-- ./row -->
+				</div><!-- /.container -->
+			</section>
+			
+			<!-- ============================================================= SECTION – HERO : END ============================================================= -->
+			
+			<div class="container inner">
+				<div class="row">
+					
+					<div class="col-md-8 inner-right inner-bottom-md">
+						
+						<!-- ============================================================= SECTION – CONTACT FORM ============================================================= -->
+						
+						<section id="contact-form">
+							
+							<h2>Laissez nous un message</h2>
+							
+							<form id="contactform" class="forms" action="contact_form.php" method="post">
+								
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" name="name" class="form-control" placeholder="Nom">
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="email" name="email" class="form-control" placeholder="Email">
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<div class="row">
+									<div class="col-sm-6">
+										<input type="text" name="subject" class="form-control" placeholder="Sujet">
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<div class="row">
+									<div class="col-sm-12">
+										<textarea name="message" class="form-control" placeholder="Entrez votre message ..."></textarea>
+									</div><!-- /.col -->
+								</div><!-- /.row -->
+								
+								<button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
+								
+							</form>
+							
+							<div id="response"></div>
+							
+						</section>
+						
+						<!-- ============================================================= SECTION – CONTACT FORM : END ============================================================= -->
+						
+					</div><!-- ./col -->
+					
+					<div class="col-md-4">
+						
+						<!-- ============================================================= SECTION – CONTACT NAMES ============================================================= -->
+						
+						<section id="contact-names" class="light-bg inner-xs inner-left-xs inner-right-xs">
+								
+							<h3 class="team-headline sidelines text-center"><span>Vos contacts</span></h3>
+							
+							<div class="row thumbs gap-md text-center">
+								
+								<div class="col-sm-6 thumb">
+									<figure class="member">
+										
+										<div class="member-image">
+											
+											<div class="text-overlay">
+												<div class="info">
+													<ul class="social">
+														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+													</ul><!-- /.social -->
+												</div><!-- /.info -->
+											</div><!-- /.text-overlay -->
+											
+											<img src="assets/images/team/benjamin.jpg">
+											
+										</div><!-- /.member-image -->
+										
+										<figcaption class="member-details bordered no-top-border">
+											<h3>
+												Benjamin Gauthier
+												<span>Co-fondateur</span>
+											</h3>
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.col -->
+								
+								<div class="col-sm-6 thumb">
+									<figure class="member">
+										
+										<div class="member-image">
+											
+											<div class="text-overlay">
+												<div class="info">
+													<ul class="social">
+														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+													</ul><!-- /.social -->
+												</div><!-- /.info -->
+											</div><!-- /.text-overlay -->
+											
+											<img src="assets/images/team/benoit.png">
+											
+										</div><!-- /.member-image -->
+										
+										<figcaption class="member-details bordered no-top-border">
+											<h3>
+												Benoit Palabre
+												<span>Co-fondateur</span>
+											</h3>
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.col -->
+								
+							</div><!-- /.row -->
+							
+							<div class="row thumbs gap-md text-center">
+								
+								<div class="col-sm-6 thumb last-bottom">
+									<figure class="member">
+										
+										<div class="member-image">
+											
+											<div class="text-overlay">
+												<div class="info">
+													<ul class="social">
+														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+													</ul><!-- /.social -->
+												</div><!-- /.info -->
+											</div><!-- /.text-overlay -->
+											
+											<img src="assets/images/team/louis.jpg">
+											
+										</div><!-- /.member-image -->
+										
+										<figcaption class="member-details bordered no-top-border">
+											<h3>
+												Louis Parrouy
+												<span>Co-fondateur</span>
+											</h3>
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.col -->
+								
+								<div class="col-sm-6 thumb last-bottom">
+									<figure class="member">
+										
+										<div class="member-image">
+											
+											<div class="text-overlay">
+												<div class="info">
+													<ul class="social">
+														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+													</ul><!-- /.social -->
+												</div><!-- /.info -->
+											</div><!-- /.text-overlay -->
+											
+											<img src="assets/images/team/guillaume.jpeg">
+											
+										</div><!-- /.member-image -->
+										
+										<figcaption class="member-details bordered no-top-border">
+											<h3>
+												Guillaume Isselin
+												<span>Co-fondateur</span>
+											</h3>
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.col -->
+								
+							</div><!-- /.row -->
+							
+						</section>
+						
+						<!-- ============================================================= SECTION – CONTACT NAMES : END ============================================================= -->
+						
+					</div><!-- /.col -->
+						
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+			
+		</main>
+		
+		<!-- ============================================================= MAIN : END ============================================================= -->
+
+<?php include('footer.php') ?>

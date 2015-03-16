@@ -3418,7 +3418,7 @@ blockquote:before {
 	line-height: 100%;
 }
 .pricing .plan .price .amount {
-	font-size: 120px;
+	font-size: 100px;
 	font-weight: 900;
 	color: #FFF;
 }
