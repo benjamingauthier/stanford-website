@@ -73,7 +73,7 @@
             <p class="pull-left">© 2015 M!nk S.A.S. All rights reserved.</p>
             <ul class="footer-menu pull-right">
                 <li >
-                    <a href="index2.php" class="">Accueil</a>
+                    <a href="index.php" class="">Accueil</a>
                 <li class="dropdown">
                     <a href="services.php">Produit</a>
                 </li>

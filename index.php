@@ -30,7 +30,7 @@
 						<div class="container">
 							<div class="caption vertical-center text-right">
 								
-								<h1 class="fadeInRight-1 dark-bg light-color"><span>Démarquez vous<br>des autres candidats</span></h1>
+								<h1 class="fadeInRight-1 dark-bg light-color"><span>Et si vous vous démarquiez<br>des autres candidats ?</span></h1>
 								<p class="fadeInRight-2 dark-color">The clean code allows you to easily copy code blocks from content <br>modules and past them in different places or layouts.</p>
 								<div class="fadeInRight-3">
 									<a href="#" class="btn btn-large">Get started now</a>

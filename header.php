@@ -21,6 +21,7 @@
     <link href="assets/css/owl.transitions.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
     <!-- Fonts -->
@@ -89,7 +90,7 @@
         <ul class="nav navbar-nav">
 
         <li >
-            <a href="index2.php" class="">Accueil</a>
+            <a href="index.php" class="">Accueil</a>
         <li class="dropdown">
             <a href="services.php">Produit</a>
         </li>
