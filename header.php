@@ -16,7 +16,7 @@
 
     <!-- Customizable CSS -->
     <link href="assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
-    <link href="assets/css/green.css" rel="stylesheet" title="Color">
+    <link href="assets/css/yellow.css" rel="stylesheet" title="Color">
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/owl.transitions.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
             <div class="container">
 
                 <ul class="info pull-left">
-                    <li><a href="#"><i class="icon-mail-1 contact"></i> contact@study.com</a></li>
+                    <li><a href="#"><i class="icon-mail-1 contact"></i> contact@standio.fr</a></li>
                 </ul><!-- /.info -->
 
                 <ul class="social pull-right">
@@ -65,7 +65,7 @@
 
                 <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.php"><img src="assets/images/logo.svg" class="logo" alt=""></a>
 
                 <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
@@ -80,7 +80,7 @@
 
         <!-- ============================================================= LOGO ============================================================= -->
 
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="logo" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimple.png" class="logo" alt=""></a>
 
         <!-- ============================================================= LOGO : END ============================================================= -->
 
