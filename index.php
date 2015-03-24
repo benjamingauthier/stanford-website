@@ -16,8 +16,8 @@
 						<div class="container">
 							<div class="caption vertical-center text-center">
 								
-								<h1 class="fadeInDown-1 light-color">Pensé pour les étudiants</h1>
-								<p class="fadeInDown-2 white-color">Créez votre site web avce un design professionel en quelques minutes et démarquez vous afin de trouver un stage ou un job ! Customisez votre site facilement </p>
+								<h1 class="fadeInDown-1 light-color">Un site pensé pour les étudiants !</h1>
+								<p class="fadeInDown-2 light-color">Créez votre site web avec un design professionel en quelques minutes et démarquez vous afin de trouver un stage ou un job ! Customisez votre site facilement </p>
 								<div class="fadeInDown-3">
 									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
@@ -30,10 +30,10 @@
 						<div class="container">
 							<div class="caption vertical-center text-right">
 								
-								<h1 class="fadeInRight-1 dark-bg light-color"><span>Et si vous vous démarquiez<br>des autres candidats ?</span></h1>
-								<p class="fadeInRight-2 dark-color">The clean code allows you to easily copy code blocks from content <br>modules and past them in different places or layouts.</p>
+								<h1 class="fadeInRight-1 dark-bg light-color"><span>Et si vous vous démarquiez des autres candidats ?</span></h1>
+								<p class="fadeInRight-2 dark-color">Prouvez à votre recruteur que vous êtes fait pour travailler pour lui !</p>
 								<div class="fadeInRight-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -44,10 +44,10 @@
 						<div class="container">
 							<div class="caption vertical-top text-left">
 								
-								<h1 class="fadeIn-1 dark-bg light-color"><span>Mettez en avant <br>vos compétences</span></h1>
-								<p class="fadeIn-2 light-color">Take a break from messing around with heavy coding and spend <br>your time brainstorming ideas for your next project.</p>
+								<h1 class="fadeIn-1 dark-bg light-color"><span>Mettez en avant vos compétences</span></h1>
+								<p class="fadeIn-2 light-color">Jouez sur vos forces, mettez les en valeur et optimisez votre profil !</p>
 								<div class="fadeIn-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -67,8 +67,8 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-9 center-block text-center">
                             <header>
-                                <h1>5 Raisons <br>de faire confiance à Stanford</h1>
-                                <p>Doloreiur quia commolu dolupta oreprerum tibusam.</p>
+                                <h1>3 RAISONS <br>DE FAIRE CONFIANCE À STANFORD</h1>
+                                <p>Le site fait par des étudiants, pour des étudiants.</p>
                             </header>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -79,10 +79,8 @@
 
                                 <ul class="etabs text-center">
                                     <li class="tab"><a href="#tab-1"><div>1</div>Simplicité</a></li>
-                                    <li class="tab"><a href="#tab-2"><div>2</div>Design</a></li>
-                                    <li class="tab"><a href="#tab-3"><div>3</div>Différenciation</a></li>
-                                    <li class="tab"><a href="#tab-4"><div>4</div>Mise en avant des compétences</a></li>
-                                    <li class="tab"><a href="#tab-5"><div>5</div>Moyen de contact</a></li>
+                                    <li class="tab"><a href="#tab-2"><div>2</div>Ergonomie</a></li>
+                                    <li class="tab"><a href="#tab-3"><div>3</div>Efficacité</a></li>
                                 </ul><!-- /.etabs -->
 
                                 <div class="panel-container">
@@ -95,8 +93,8 @@
                                             </div><!-- /.col -->
 
                                             <div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
-                                                <h3>Function</h3>
-                                                <p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
+                                                <h3>Simplicité</h3>
+                                                <p>Entrez vos infos, votre contenu, vos illustrations, et c'est parti ! En quelques clics, votre profil sera sous son meilleur jour et les recruteurs ne pourront que succomber à la tentation !</p>
                                             </div><!-- /.col -->
 
                                         </div><!-- /.row -->
@@ -110,8 +108,8 @@
                                             </div><!-- /.col -->
 
                                             <div class="col-md-5 col-sm-6 inner-top-xs inner-left-xs">
-                                                <h3>Simplicity</h3>
-                                                <p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque quiae sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
+                                                <h3>Ergonomie</h3>
+                                                <p>Aucune connaissance en informatique ?</br>Pas de problèmes. STANFORD, avec son interface ultra simple d'utilisation vous permettra de réaliser votre site sans le moindre soucis technique !</p>
                                             </div><!-- /.col -->
 
                                         </div><!-- /.row -->
@@ -126,40 +124,14 @@
 
                                             <div class="col-md-3 col-md-pull-4 col-sm-6 inner-top-xs">
                                                 <h3>Design</h3>
-                                                <p>Magnis modipsae lib voloratati andigen daepedor quiate aut labor. Laceaque quiae sitiorem resti est lore tumquam core posae volor uso remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent it accullignis orum lomnus.</p>
+                                                <p>La forme de votre site web sera pensée pour séduire, pour vous apporter un maximum de crédit et favoriser votre volonté de vous démarquer, de sortir du lot !</p>
                                             </div><!-- /.col -->
 
                                             <div class="col-md-3 col-sm-6 inner-top-xs">
-                                                <h3>User interface</h3>
-                                                <p>Magnis modipsae lib voloratati andigen daepedor quiate aut labor. Laceaque quiae sitiorem resti est lore tumquam core posae volor uso remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent it accullignis orum lomnus.</p>
+                                                <h3>Un plus</h3>
+                                                <p>Les entretiens tournant autour de votre CV vous ennuient ? N'hésitez pas une seconde de plus, créez votre site sur STANFORD et parlez réellement de ce qui vous anime !</p>
                                             </div><!-- /.col -->
 
-                                        </div><!-- /.row -->
-                                    </div><!-- /.tab-content -->
-
-                                    <div class="tab-content" id="tab-4">
-
-                                        <div class="row">
-                                            <div class="col-md-5 col-sm-6 col-xs-8 center-block text-center">
-                                                <figure><img src="assets/images/art/product03.jpg" alt=""></figure>
-                                            </div><!-- /.col -->
-                                        </div><!-- /.row -->
-
-                                        <div class="row">
-                                            <div class="col-sm-8 center-block text-center inner-top-xs">
-                                                <h3>Social</h3>
-                                                <p>Magnis modipsae que lib voloratati andigen daepedor quiate ut reporemni aut labor. Laceaque sitiorem ut restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta orem retibusam emnis et consent accullignis lomnus.</p>
-                                            </div><!-- /.col -->
-                                        </div><!-- /.row -->
-
-                                    </div><!-- /.tab-content -->
-
-                                    <div class="tab-content" id="tab-5">
-                                        <div class="row">
-                                            <div class="col-md-8 col-sm-9 center-block text-center">
-                                                <h3>Community</h3>
-                                                <p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
-                                            </div><!-- /.col -->
                                         </div><!-- /.row -->
                                     </div><!-- /.tab-content -->
 
@@ -176,90 +148,92 @@
 
 
             <!-- ============================================================= SECTION – PRODUCT ============================================================= -->
-			
-			<section id="product">
-				<div class="container inner">
-					
-					<div class="row">
-						
-						<div class="col-sm-6 inner-right-xs text-right">
-							<figure><img src="assets/images/art/product01.jpg" alt=""></figure>
-						</div><!-- /.col -->
-						
-						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Votre site reste adpaté</h2>
-							<p></p>
-							<a href="#" class="txt-btn">Découvir les autres fonctionnalités</a>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-					
-					<div class="row inner-top-md">
-						
-						<div class="col-sm-6 col-sm-push-6 inner-left-xs">
-							<figure><img src="assets/images/art/product02.jpg" alt=""></figure>
-						</div><!-- /.col -->
-						
-						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
-							<h2>Choisissez parmi plus de 10 styles différents</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate es reporemus aut labor. Laceaque quiae sitiorem rest non restibusaes dem tumquam core posae volor remped modis volor. Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis lib dentibea autem inisita. Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem.</p>
-							<a href="#" class="txt-btn">Visit the showroom</a>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-					
-					<div class="row inner-top-md">
-						
-						<div class="col-sm-6 inner-right-xs text-right">
-							<figure><img src="assets/images/art/product03.jpg" alt=""></figure>
-						</div><!-- /.col -->
-						
-						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Social media made even easier</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
-							<a href="#" class="txt-btn">Learn more about it</a>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-				
-				</div><!-- /.container -->
-			</section>
-			
+
+<!--			<section id="product">-->
+<!--				<div class="container inner">-->
+<!--					-->
+<!--					<div class="row">-->
+<!--						-->
+<!--						<div class="col-sm-6 inner-right-xs text-right">-->
+<!--							<figure><img src="assets/images/art/product01.jpg" alt=""></figure>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--						<div class="col-sm-6 inner-top-xs inner-left-xs">-->
+<!--							<h2>Votre site reste adpaté</h2>-->
+<!--							<p></p>-->
+<!--							<a href="#" class="txt-btn">Découvir les autres fonctionnalités</a>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--					</div><!-- /.row -->
+<!--					-->
+<!--					<div class="row inner-top-md">-->
+<!--						-->
+<!--						<div class="col-sm-6 col-sm-push-6 inner-left-xs">-->
+<!--							<figure><img src="assets/images/art/product02.jpg" alt=""></figure>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--						<div class="col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">-->
+<!--							<h2>Choisissez parmi plus de 10 styles différents</h2>-->
+<!--							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate es reporemus aut labor. Laceaque quiae sitiorem rest non restibusaes dem tumquam core posae volor remped modis volor. Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis lib dentibea autem inisita. Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem.</p>-->
+<!--							<a href="#" class="txt-btn">Visit the showroom</a>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--					</div><!-- /.row -->
+<!--					-->
+<!--					<div class="row inner-top-md">-->
+<!--						-->
+<!--						<div class="col-sm-6 inner-right-xs text-right">-->
+<!--							<figure><img src="assets/images/art/product03.jpg" alt=""></figure>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--						<div class="col-sm-6 inner-top-xs inner-left-xs">-->
+<!--							<h2>Social media made even easier</h2>-->
+<!--							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>-->
+<!--							<a href="#" class="txt-btn">Learn more about it</a>-->
+<!--						</div><!-- /.col -->
+<!--						-->
+<!--					</div><!-- /.row -->
+<!--				-->
+<!--				</div><!-- /.container -->
+<!--			</section>-->
+<!--			-->
 			<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
 			
 			
 			<!-- ============================================================= SECTION – VISIT OUR STORE ============================================================= -->
-		
+
+            <!--
 			<section id="visit-our-store" class="img-bg img-bg-soft tint-bg" style="background-image: url(assets/images/art/image-background04.jpg);">
 				<div class="container inner">
 					
 					<div class="row">
 						<div class="col-md-8 col-sm-9">
 							<header>
-								<h1>Customize your own model</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate conecus aut labore. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam explabo.</p>
+								<h1>Créez votre propre site</h1>
+								<p>Quelques clics, un peu de contenu, et vous voilà fin prêt à vous présenter sous votre meilleur jour !</p>
 							</header>
-							<a href="#" class="btn btn-large">Visit our store</a>
-						</div><!-- /.col -->
-					</div><!-- /.row -->
+							<a href="#" class="btn btn-large">Découvrir notre offre</a>
+						</div>
+					</div>
 					
-				</div><!-- /.container -->
+				</div>
 			</section>
+            -->
 			
 			<!-- ============================================================= SECTION – VISIT OUR STORE : END ============================================================= -->
 			
 
 			<!-- ============================================================= SECTION – GET IN TOUCH ============================================================= -->
-			
+
 			<section id="get-in-touch" class="inner-bottom">
 				<div class="container inner light-bg">
 					<div class="row">
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
-								<h1>Want to work with us?</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+								<h1>Créez votre propre site</h1>
+								<p>Quelques clics, un peu de contenu, et vous voilà fin prêt à vous présenter sous votre meilleur jour !</p>
 							</header>
-							<a href="#" class="btn btn-large">Get in touch</a>
+							<a href="#" class="btn btn-large">C'est parti !</a>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
