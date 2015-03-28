@@ -13,7 +13,7 @@
 			
 			<!-- ============================================================= SECTION – HERO ============================================================= -->
 			
-			<section id="hero" class="dark-bg img-bg img-bg-soft" style="background-image: url(assets/images/art/slider02.jpg);">
+			<section id="hero" class="dark-bg">
 				<div class="container inner-top-md inner-bottom-sm">
 					<div class="row">
 						
@@ -29,7 +29,7 @@
 							<ul class="contacts">
 								<li><i class="icon-location contact"></i> 50 Rue Bouffard, 33000 Bordeaux</li>
 								<li><i class="icon-mobile contact"></i> 05 56 07 23 91</li>
-								<li><a href="mailto:info@study.com"><i class="icon-mail-1 contact"></i> info@study.com</a></li>
+								<li><a href="mailto:info@study.com"><i class="icon-mail-1 contact"></i> contact@standio.com</a></li>
 							</ul><!-- /.contacts -->
 						</div><!-- /.col -->
 						

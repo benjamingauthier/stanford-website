@@ -16,8 +16,8 @@
 						<div class="container">
 							<div class="caption vertical-center text-center">
 								
-								<h1 class="fadeInDown-1 light-color">Un site pensé pour les étudiants !</h1>
-								<p class="fadeInDown-2 light-color">Créez votre site web avec un design professionel en quelques minutes et démarquez vous afin de trouver un stage ou un job ! Customisez votre site facilement </p>
+								<h1 class="fadeInRight-1 dark-bg light-color">Un site pensé pour les étudiants !</h1>
+								<p class="fadeInRight-2 dark-bg light-color">Créez votre site web avec un design professionel en quelques minutes et démarquez vous afin de trouver un stage ou un job ! Customisez votre site facilement </p>
 								<div class="fadeInDown-3">
 									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
@@ -31,7 +31,7 @@
 							<div class="caption vertical-center text-right">
 								
 								<h1 class="fadeInRight-1 dark-bg light-color"><span>Et si vous vous démarquiez des autres candidats ?</span></h1>
-								<p class="fadeInRight-2 dark-color">Prouvez à votre recruteur que vous êtes fait pour travailler pour lui !</p>
+								<p class="fadeInRight-2 dark-bg light-color">Prouvez à votre recruteur que vous êtes fait pour travailler pour lui !</p>
 								<div class="fadeInRight-3">
 									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
@@ -44,8 +44,8 @@
 						<div class="container">
 							<div class="caption vertical-top text-left">
 								
-								<h1 class="fadeIn-1 dark-bg light-color"><span>Mettez en avant vos compétences</span></h1>
-								<p class="fadeIn-2 light-color">Jouez sur vos forces, mettez les en valeur et optimisez votre profil !</p>
+								<h1 class="fadeInRight-1 dark-bg light-color"><span>Mettez en avant vos compétences</span></h1>
+								<p class="fadeInRight-2 dark-bg light-color">Jouez sur vos forces, mettez les en valeur et optimisez votre profil !</p>
 								<div class="fadeIn-3">
 									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->

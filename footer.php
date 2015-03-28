@@ -8,7 +8,7 @@
             <div class="col-md-3 col-sm-6 inner">
                 <h4>Nous sommes</h4>
                 <a href="index.html"><img class="logo img-intext" src="assets/images/standiosimpleinverted.png" alt=""></a>
-                <p>Stanford est un produit de la société M!nk, jeune société bordelaise, fondée par quatre étudiants en 2015, spécialisée dans le développement d’applications mobiles et de solutions web.</p>
+                <p>STANDiO est un produit de la société M!nk, jeune société bordelaise, fondée par quatre étudiants en 2015, spécialisée dans le développement d’applications mobiles et de solutions web.</p>
                 <a href="about.html" class="txt-btn">En savoir plus</a>
             </div><!-- /.col -->
 

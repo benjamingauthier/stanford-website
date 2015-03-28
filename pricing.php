@@ -13,7 +13,6 @@
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
 								<h1>Un seul prix, pas de suprises</h1>
-								<p>Vous pourrez enfin garder votre argent et ne pas manger que des pates</p>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
@@ -61,9 +60,8 @@
 					<div class="row">
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
-								<h1>Questions?</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
-							</header>
+								<h1>Les questions les plus fréquentes</h1>
+		                    </header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 					
@@ -71,27 +69,27 @@
 					
 						<div class="col-sm-6 inner-right-sm inner-top-sm">
 							
-							<h3>How long are the contracts?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Y-a-t'il des publicités sur mon site ?</h3>
+							<p>Non, votre site sera entièrement consacré à vous.</p>
 							
-							<h3>Can i switch plans later?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Mon lien est-il entièrement personnalisable ?</h3>
+							<p>Vous pouvez personnaliser votre lien, selon la disponibilité, tout en gardant l'extension ".fr".</p>
 							
-							<h3>What support options do i have?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Je n'ai aucune idée du style que je désire, comment faire ?</h3>
+							<p>Nous vous proposerons plusieurs style de sites web qui sont fait pour vous promouvoir.</p>
 							
 						</div><!-- /.col -->
 					
 						<div class="col-sm-6 inner-left-sm inner-top-sm">
 							
-							<h3>Is there a setup fee?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Combien de temps dure mon engagement ?</h3>
+							<p>L'engagement à notre offre est de 6 mois reconductibles.</p>
 							
-							<h3>What types of payment methods are accepted?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Quelles sont les conditions de résiliations ?</h3>
+							<p></p>
 							
-							<h3>Can i cancel my account at any time?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<h3>Puis-je mettre mon abonnement "en pause" ?</h3>
+							<p></p>
 							
 						</div><!-- /.col -->
 						
@@ -109,7 +107,7 @@
 				<div class="container inner-sm">
 					<div class="row">
 						<div class="col-sm-10 center-block text-center">
-							<h1 class="single-block">Need more help? <a href="#" class="btn btn-large">Contact us</a></h1>
+							<h1 class="single-block">D'autres questions ?<a href="#" class="btn btn-large">Posez les !</a></h1>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->

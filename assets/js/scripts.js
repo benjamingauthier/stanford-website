@@ -705,7 +705,7 @@ $(document).ready(function () {
 	function initialize() {
 		var mapOptions = {
 			zoom: 13,
-			center: new google.maps.LatLng(40.7902778, -73.9597222),
+			center: new google.maps.LatLng(44.837658, -0.576379),
 			disableDefaultUI: true,
 			scrollwheel: false
 		}
