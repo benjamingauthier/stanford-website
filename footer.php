@@ -112,24 +112,5 @@
 <!--[if !IE]> -->
 <script src="assets/js/onscroll.js"></script>
 <!-- <![endif]-->
-
-<!-- For demo purposes – can be removed on production -->
-<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
-<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
-<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
-<link href="assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
-<link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
-<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
-<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
-<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
-
-<script src="switchstylesheet/switchstylesheet.js"></script>
-
-<script>
-    $(document).ready(function(){
-        $(".changecolor").switchstylesheet( { seperator:"color"} );
-    });
-</script>
-<!-- For demo purposes – can be removed on production : End -->
 </body>
 </html>
