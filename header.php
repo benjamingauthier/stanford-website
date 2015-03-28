@@ -56,11 +56,8 @@
 
                 <ul class="social pull-right">
                     <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-s-gplus"></i></a></li>
                     <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-                    <li><a href="#"><i class="icon-s-behance"></i></a></li>
-                    <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                    <li><a href="#"><i class="icon-s-gplus"></i></a></li>
                 </ul><!-- /.social -->
 
                 <!-- ============================================================= LOGO MOBILE ============================================================= -->

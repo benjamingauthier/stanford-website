@@ -19,7 +19,7 @@
 					
 					<div class="row pricing">
 						
-						<div class="col-md-12 col-sm-6 center-block inner-top-sm">
+						<div class="col-md-8 col-sm-6 center-block inner-top-sm">
 							<div class="plan">
 								
 								<header>
