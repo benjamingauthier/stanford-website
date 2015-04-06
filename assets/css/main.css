@@ -3404,7 +3404,7 @@ blockquote:before {
 	overflow: hidden;
 }
 .pricing .plan header {
-	background: #2F4052;
+	background: #000;
 	text-align: center;
 	padding: 50px;
 }

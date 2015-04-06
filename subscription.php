@@ -4,7 +4,6 @@
 
     <main>
 
-
     <div class="container inner">
         <div class="row">
 
@@ -13,15 +12,21 @@
                 <!-- ============================================================= SECTION – CONTACT FORM ============================================================= -->
 
                 <section id="contact-form">
+                        <div class="text-center">
+                            <header>
+                                <h1>Faites comme des dizaines d'étudiants</h1>
+                                <p>Rejoignez Standio et mettez toutes les chances de votre coté pour votre recherche de stage ou d'emploi !</p><br><br>
+                            </header>
+                        </div><!-- /.col -->
 
-                    <h2 ></h2>
 
                     <form id="contactform" class="forms" action="contact_form.php" method="post">
 
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-xs-4">
+                                <span>www.
                                 <input type="text" name="ndd" id="ndd" class="form-control" placeholder="Site web" onkeyup="ndd_validation()">
-
+                                .fr</span>
                                 <i id="available" style="display: none;" class="fa fa-check"></i>
                                 <i id="registered" style="display: none;" class="fa fa-times"></i>
                             </div><!-- /.col -->
@@ -35,13 +40,13 @@
 
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" name="subject" class="form-control" placeholder="Sujet">
+                                <input type="text" name="subject" class="form-control" placeholder="Mot de passe">
                             </div><!-- /.col -->
                         </div><!-- /.row -->
 
                         <div class="row">
-                            <div class="col-sm-12">
-                                <textarea name="message" class="form-control" placeholder="Entrez votre message ..."></textarea>
+                            <div class="col-sm-6">
+                                <input type="text" name="subject" class="form-control" placeholder="Confirmation">
                             </div><!-- /.col -->
                         </div><!-- /.row -->
 
