@@ -29,7 +29,7 @@
 							<ul class="contacts">
 								<li><i class="icon-location contact"></i> 50 Rue Bouffard, 33000 Bordeaux</li>
 								<li><i class="icon-mobile contact"></i> 05 56 07 23 91</li>
-								<li><a href="mailto:info@study.com"><i class="icon-mail-1 contact"></i> contact@standio.com</a></li>
+								<li><a href="mailto:contact@standio.fr"><i class="icon-mail-1 contact"></i> contact@standio.com</a></li>
 							</ul><!-- /.contacts -->
 						</div><!-- /.col -->
 						
@@ -106,9 +106,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/benjamin.gauthier.142?fref=ts"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/benjamingauthier"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/Ben_Gauthier_"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -135,9 +135,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/bpalabre"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/bpalabre"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/bpalabre"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -168,9 +168,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/louis.p.james?fref=ts"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://fr.linkedin.com/pub/louis-parrouy/a5/268/29"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/LouisParrouy"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -197,9 +197,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-														<li><a href="#"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/gisselin1?fref=ts"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/gisselin"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/g_isselin"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
