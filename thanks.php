@@ -15,7 +15,7 @@
                             <header>
                                 <h1>Merci !</h1>
 
-                                <p>Votre inscription est désormais terminé, vous allez recevoir un mail contenant les informations d'accès à votre site.<br> Bienvenu chez STANDiO !</p><br><br>
+                                <p>Votre inscription est désormais terminée, vous allez recevoir un mail contenant les informations d'accès à votre site.<br> Bienvenue chez STANDiO !</p><br><br>
                             </header>
                         </div>
                         <!-- /.col -->

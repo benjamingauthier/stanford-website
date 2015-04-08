@@ -19,4 +19,3 @@ $stmt->bindValue(':postcode', $postcode);
 $stmt->bindValue(':city', $city);
 $stmt->bindValue(':ndd', $ndd);
 $stmt->execute();
-

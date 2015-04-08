@@ -243,7 +243,7 @@
             }
         };
 
-        req.open("POST", "example.php", true);
+        req.open("POST", "http://vps141243.ovh.net/dev/standio/bgauthie/example.php", true);
         req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         req.send(data);
     }
