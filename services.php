@@ -26,10 +26,10 @@
 						
 						<div class="col-sm-4 inner-bottom-xs">
 							<div class="icon">
-								<i class="icon-code icn lg"></i>
+								<i class="icon-globe icn lg"></i>
 							</div><!-- /.icon -->
 							<h2>Qualité</h2>
-							<p class="text-small"></p>
+							<p class="text-small">Qui de mieux qu'un étudiant pour comprendre les besoins d'un autre étudiant ?</p>
 						</div><!-- /.col -->
 						
 						<div class="col-sm-4 inner-bottom-xs">

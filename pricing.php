@@ -85,11 +85,11 @@
 							<h3>Combien de temps dure mon engagement ?</h3>
 							<p>L'engagement à notre offre est de 6 mois reconductibles.</p>
 							
-							<h3>Quelles sont les conditions de résiliations ?</h3>
-							<p></p>
+							<h3>Aurais-je le droit de tout modifier sur mon site ?</h3>
+							<p>L'intégralité du contenu est modifiable. Le style, quand à lui, n'est pas totalement modifiable, vous pourrez cependant en changer une majeure partie !</p>
 							
-							<h3>Puis-je mettre mon abonnement "en pause" ?</h3>
-							<p></p>
+							<h3>J'ai des idées pour redéfinir mon propre style de site, que dois-je faire ?</h3>
+							<p>Envoyez nous toutes vos idées de style ! Nous adapterons et ferons évoluer nos styles avec vous.</p>
 							
 						</div><!-- /.col -->
 						
@@ -107,7 +107,7 @@
 				<div class="container inner-sm">
 					<div class="row">
 						<div class="col-sm-10 center-block text-center">
-							<h1 class="single-block">D'autres questions ?<a href="#" class="btn btn-large">Posez les !</a></h1>
+							<h1 class="single-block">D'autres questions ?<a href="contact.php" class="btn btn-large">Posez les !</a></h1>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->

@@ -19,25 +19,25 @@
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="portfolio-post.html"><img src="assets/images/team/benjamin.jpg" alt=""></a>
+                            <a href="benjamingatuhier.com"><img src="assets/images/team/benjamin.jpg" alt=""></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="portfolio-post.html"><img src="assets/images/team/benoit.png" alt=""></a>
+                            <a href="benoitpalabre.fr"><img src="assets/images/team/benoit.png" alt=""></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="portfolio-post.html"><img src="assets/images/team/louis.jpg" alt=""></a>
+                            <a href="louisparrouy.fr"><img src="assets/images/team/louis.jpg" alt=""></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="portfolio-post.html"><img src="assets/images/team/guillaume.jpeg" alt=""></a>
+                            <a href="guillaumeisselin.fr"><img src="assets/images/team/guillaume.jpeg" alt=""></a>
                         </figure>
                     </div><!-- /.thumb -->
 
@@ -51,7 +51,7 @@
                 <ul class="contacts">
                     <li><i class="icon-location contact"></i> 50 Rue Bouffard, 33000 Bordeaux</li>
                     <li><i class="icon-mobile contact"></i> 05 56 07 23 91</li>
-                    <li><a href="#"><i class="icon-mail-1 contact"></i> contact@stanford.com</a></li>
+                    <li><a href="mailto:contact@standio.fr"><i class="icon-mail-1 contact"></i> contact@standio.fr</a></li>
                 </ul><!-- /.contacts -->
             </div><!-- /.col -->
 
