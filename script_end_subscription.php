@@ -1,12 +1,14 @@
 <?php
+session_start();
 include('connectbdd.php');
 if(isset($_SESSION['ndd'])) {
     $ndd = $_SESSION['ndd'];
     unset($_SESSION['ndd']);
 }
+
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
-$lastname = $_POST['email'];
+$email = $_POST['email'];
 $address = $_POST['address'];
 $postcode = $_POST['postcode'];
 $city = $_POST['city'];
