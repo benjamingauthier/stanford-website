@@ -27,8 +27,7 @@
                                 <span>www.
                                 <input type="text" name="ndd" id="ndd" class="form-control" placeholder="Site web" onkeyup="ndd_validation()">
                                 .fr</span>
-                                <i id="available" style="display: none;" class="fa fa-check"></i>
-                                <i id="registered" style="display: none;" class="fa fa-times"></i>
+                                <i id="result"></i>
                             </div><!-- /.col -->
                         </div><!-- /.row -->
                         <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
@@ -225,7 +224,7 @@
 
     function ndd_validation(element)
     {
-        var req =  createInstance();
+       /* var req =  createInstance();
         var ndd = document.getElementById('ndd').value;
         var data = "ndd=" + ndd + ".fr";
         req.onreadystatechange = function()
@@ -245,7 +244,29 @@
 
         req.open("POST", "http://vps141243.ovh.net/dev/standio/bgauthie/example.php", true);
         req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        req.send(data);
+        req.send(data);*/
+        $.ajax({
+            url: '/checkdomain.php',
+            type: 'GET',
+            dataType: 'jsonp',
+            data: {
+                domain: $('#ndd').val()+'.fr'
+            },
+            error: function() {
+                $('#result').css("fa fa-times");
+            },
+            success: function(data) {
+                if (data.available == true)
+                {
+                    $('#result').css("fa fa-check");
+                }
+                else
+                {
+                    $('#result').css("fa fa-times");
+                }
+            }
+        });
+
     }
 </script>
 <?php include('footer.php') ?>
