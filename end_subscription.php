@@ -21,40 +21,16 @@
                         <!-- /.col -->
                         <form id="contactform" class="forms" action="script_end_subscription.php" method="post">
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-lg-6 col-centered">
                                     <input type="text" name="firstname"  id="firstname" class="form-control" placeholder="Prénom">
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
                                     <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Nom">
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email">
                                     <input type="text" name="address" id="address" class="form-control" placeholder="Adresse">
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                            <div class="row">
-                                <div class="col-sm-6">
                                     <input type="text" name="postcode" id="postcode" class="form-control" placeholder="Code postal">
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                            <div class="row">
-                                <div class="col-sm-6">
                                     <input type="text" name="city" id="city" class="form-control" placeholder="Ville">
+                                    <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
                                 </div>
-                                <!-- /.col -->
                             </div>
-                            <!-- /.row -->
-                            <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
-
                         </form>
                         <div id="response"></div>
 

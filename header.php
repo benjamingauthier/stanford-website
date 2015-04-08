@@ -62,7 +62,7 @@
 
                 <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-                <a class="navbar-brand" href="index.php"><img src="assets/images/logo.svg" class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimple.png" class="logo" alt=""></a>
 
                 <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
@@ -95,7 +95,7 @@
             <a href="prix">Prix</a>
         </li>
         <li>
-            <a href="contact">Contact</a>
+            <a href="nous-contacter">Contact</a>
         </li><!-- /.dropdown -->
 
         <li class="dropdown pull-right searchbox">

@@ -193,18 +193,18 @@
             },
             error: function() {
                 $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
-                $("input[type=submit]").attr("disabled", "disabled")
+                $('button').prop('disabled',true);
             },
             success: function(data) {
                 if (data.available == true)
                 {
                     $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
-                    $("input[type=submit]").removeAttr("disabled");
+                    $('button').prop('disabled',false);
                 }
                 else
                 {
                     $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
-                    $("input[type=submit]").attr("disabled", "disabled")
+                    $('button').prop('disabled',true);
                 }
             }
         });

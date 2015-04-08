@@ -2,8 +2,10 @@ RewriteEngine On
 ErrorDocument 404 /404.php
 
 
-RewriteRule ^contact contact.php [L]
+RewriteRule ^nous-contacter contact.php [L]
 RewriteRule ^prix pricing.php [L]
 RewriteRule ^produit services.php [L]
-RewriteRule ^inscription inscription.php [L]
+RewriteRule ^inscription subscription.php [L]
+RewriteRule ^informations end_subscription.php [L]
+RewriteRule ^merci thanks.php [L]
 RewriteRule ^lol test.html [L]
