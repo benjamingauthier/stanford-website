@@ -27,7 +27,7 @@
                                 <span>www.
                                 <input type="text" name="ndd" id="ndd" class="form-control" placeholder="Site web" onkeyup="ndd_validation()">
                                 .fr</span>
-                                <i id="result"></i>
+                                <i id="result" class="fa"></i>
                             </div><!-- /.col -->
                         </div><!-- /.row -->
                         <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
@@ -246,27 +246,26 @@
         req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         req.send(data);*/
         $.ajax({
-            url: '/checkdomain.php',
+            url: 'http://www.one.com/test-domain.do',
             type: 'GET',
-            dataType: 'jsonp',
+            dataType: 'json',
             data: {
-                domain: $('#ndd').val()+'.fr'
+                domain: $('#ndd').val()
             },
             error: function() {
-                $('#result').css("fa fa-times");
+                $("#result").removeClass('fa-check-circle').addClass("fa-times-circle")
             },
             success: function(data) {
                 if (data.available == true)
                 {
-                    $('#result').css("fa fa-check");
+                    $("#result").removeClass('fa-times-circle').addClass("fa-check-circle")
                 }
                 else
                 {
-                    $('#result').css("fa fa-times");
+                    $("#result").removeClass('fa-check-circle').addClass("fa-times-circle")
                 }
             }
         });
-
     }
 </script>
 <?php include('footer.php') ?>
