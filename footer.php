@@ -9,7 +9,7 @@
                 <h4>Nous sommes</h4>
                 <a href="#"><img class="logo img-intext" src="assets/images/standiosimpleinverted.png" alt=""></a>
                 <p>STANDiO est un produit de la société M!nk, jeune société bordelaise, fondée par quatre étudiants en 2015, spécialisée dans le développement d’applications mobiles et de solutions web.</p>
-                <a href="www.mink.so" class="txt-btn">En savoir plus</a>
+                <a href="http://www.mink.so" target="_blank" class="txt-btn">En savoir plus</a>
             </div><!-- /.col -->
 
             <div class="col-md-3 col-sm-6 inner">

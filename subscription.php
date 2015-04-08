@@ -20,7 +20,7 @@
                         </div><!-- /.col -->
 
 
-                    <form id="contactform" class="forms" action="contact_form.php" method="post">
+                    <form id="contactform" class="forms" action="script_subscription.php" method="post">
 
                         <div class="row">
                             <div class="col-xs-4">
@@ -31,25 +31,6 @@
                                 <i id="registered" style="display: none;" class="fa fa-times"></i>
                             </div><!-- /.col -->
                         </div><!-- /.row -->
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="email" name="email" class="form-control" placeholder="Email">
-                            </div><!-- /.col -->
-                        </div><!-- /.row -->
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" name="subject" class="form-control" placeholder="Mot de passe">
-                            </div><!-- /.col -->
-                        </div><!-- /.row -->
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" name="subject" class="form-control" placeholder="Confirmation">
-                            </div><!-- /.col -->
-                        </div><!-- /.row -->
-
                         <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
 
                     </form>

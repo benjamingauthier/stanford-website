@@ -89,13 +89,13 @@
         <li >
             <a href="index.php" class="">Accueil</a>
         <li class="dropdown">
-            <a href="services.php">Produit</a>
+            <a href="produit">Produit</a>
         </li>
         <li >
-            <a href="pricing.php">Prix</a>
+            <a href="prix">Prix</a>
         </li>
         <li>
-            <a href="contact.php">Contact</a>
+            <a href="contact">Contact</a>
         </li><!-- /.dropdown -->
 
         <li class="dropdown pull-right searchbox">
