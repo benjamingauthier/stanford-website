@@ -58,7 +58,7 @@
             <div class="col-md-3 col-sm-6 inner">
                 <h4>Newsletter</h4>
                 <p>Pour être au courant des dernières nouveautés, abonnez vous à notre newsletter</p>
-                <form id="newsletter" class="form-inline newsletter" role="form"  action="script_newsletter.php" method="post">
+                <form id="contactform" class="form-inline newsletter" action="script_newsletter.php" method="post">
                     <label class="sr-only" for="exampleInputEmail">Email</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email...">
                     <button type="submit" class="btn btn-default btn-submit">S'abonner</button>
