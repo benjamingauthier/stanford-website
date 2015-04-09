@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 include('connectbdd.php');
 include('header.php');
 
@@ -8,7 +10,7 @@ include('header.php');
 	if (isset($_POST['stripeToken']))
 	{
 		echo "yolo1";
-		require_once 'stripe-php-2.1.1/lib/Stripe.php';
+		require_once 'stripe-php-2.1.1/init.php';
 				echo "yolo2";
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
@@ -31,7 +33,7 @@ echo "yolo23";
 		$infos = $dbh->prepare('INSERT INTO users(stripe_id, ndd) VALUES (:id, :ndd)');
 		  // On envois la requète
 		  $infos->execute(array(
-		  	'stripe_id' => $customer->id,
+		  	'id' => $customer->id,
 		  	'ndd' => $_POST['ndd']
 		  	//,'subid' => $subid)
 		  ));
