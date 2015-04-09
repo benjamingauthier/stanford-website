@@ -1,3 +1,28 @@
 .white-color {
     color: white;
 }
+
+span#basic-addon2 {
+    padding: 16px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.black {
+    color: #000000;
+}
+
+.yellow {
+    color: #f1c40f;
+}
+
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}

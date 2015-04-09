@@ -33,7 +33,7 @@
 								<h1 class="fadeInRight-1 dark-bg light-color"><span>Et si vous vous démarquiez des autres candidats ?</span></h1>
 								<p class="fadeInRight-2 dark-bg light-color">Prouvez à votre recruteur que vous êtes fait pour travailler pour lui !</p>
 								<div class="fadeInRight-3">
-									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
+									<a href="inscription" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -47,7 +47,7 @@
 								<h1 class="fadeInRight-1 dark-bg light-color"><span>Mettez en avant vos compétences</span></h1>
 								<p class="fadeInRight-2 dark-bg light-color">Jouez sur vos forces, mettez les en valeur et optimisez votre profil !</p>
 								<div class="fadeIn-3">
-									<a href="#" class="btn btn-large">Commencez dès maintenant</a>
+									<a href="inscription" class="btn btn-large">Commencez dès maintenant</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
