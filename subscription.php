@@ -246,11 +246,11 @@
         req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         req.send(data);*/
         $.ajax({
-            url: 'http://www.one.com/test-domain.do',
+            url: 'https://standio.fr/checkdomain.php',
             type: 'GET',
             dataType: 'json',
             data: {
-                domain: $('#ndd').val()
+                domain: $('#ndd').val()+'.fr'
             },
             error: function() {
                 $("#result").removeClass('fa-check-circle').addClass("fa-times-circle")
