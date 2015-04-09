@@ -89,7 +89,7 @@
                                         <div class="row">
 
                                             <div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
-                                                <figure><img src="assets/images/art/product04.jpg" alt=""></figure>
+                                                <figure><img src="assets/images/screens/tripletteMedium.png" alt=""></figure>
                                             </div><!-- /.col -->
 
                                             <div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
@@ -104,7 +104,7 @@
                                         <div class="row">
 
                                             <div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
-                                                <figure><img src="assets/images/art/product05.jpg" alt=""></figure>
+                                                <figure><img src="assets/images/screens/TripleiPhoneMedium.png" alt=""></figure>
                                             </div><!-- /.col -->
 
                                             <div class="col-md-5 col-sm-6 inner-top-xs inner-left-xs">
@@ -119,7 +119,7 @@
                                         <div class="row">
 
                                             <div class="col-md-4 col-md-push-3 col-md-offset-1 col-sm-6 inner-left-xs inner-right-xs">
-                                                <figure><img src="assets/images/art/product06.jpg" alt=""></figure>
+                                                <figure><img src="assets/images/screens/iPhoneAloneMedium.png" alt=""></figure>
                                             </div><!-- /.col -->
 
                                             <div class="col-md-3 col-md-pull-4 col-sm-6 inner-top-xs">
