@@ -106,9 +106,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="https://www.facebook.com/benjamin.gauthier.142?fref=ts"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="https://www.linkedin.com/in/benjamingauthier"><i class="icon-s-linkedin"></i></a></li>
-														<li><a href="https://twitter.com/Ben_Gauthier_"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/benjamin.gauthier.142?fref=ts" target="_blank"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/benjamingauthier" target="_blank"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/Ben_Gauthier_" target="_blank"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -135,9 +135,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="https://www.facebook.com/bpalabre"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="https://www.linkedin.com/in/bpalabre"><i class="icon-s-linkedin"></i></a></li>
-														<li><a href="https://twitter.com/bpalabre"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/bpalabre" target="_blank"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/bpalabre" target="_blank"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/bpalabre" target="_blank"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -168,9 +168,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="https://www.facebook.com/louis.p.james?fref=ts"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="https://fr.linkedin.com/pub/louis-parrouy/a5/268/29"><i class="icon-s-linkedin"></i></a></li>
-														<li><a href="https://twitter.com/LouisParrouy"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/louis.p.james?fref=ts" target="_blank"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://fr.linkedin.com/pub/louis-parrouy/a5/268/29" target="_blank"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/LouisParrouy" target="_blank"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->
@@ -197,9 +197,9 @@
 											<div class="text-overlay">
 												<div class="info">
 													<ul class="social">
-														<li><a href="https://www.facebook.com/gisselin1?fref=ts"><i class="icon-s-facebook"></i></a></li>
-														<li><a href="https://www.linkedin.com/in/gisselin"><i class="icon-s-linkedin"></i></a></li>
-														<li><a href="https://twitter.com/g_isselin"><i class="icon-s-twitter"></i></a></li>
+														<li><a href="https://www.facebook.com/gisselin1?fref=ts" target="_blank"><i class="icon-s-facebook"></i></a></li>
+														<li><a href="https://www.linkedin.com/in/gisselin" target="_blank"><i class="icon-s-linkedin"></i></a></li>
+														<li><a href="https://twitter.com/g_isselin" target="_blank"><i class="icon-s-twitter"></i></a></li>
 													</ul><!-- /.social -->
 												</div><!-- /.info -->
 											</div><!-- /.text-overlay -->

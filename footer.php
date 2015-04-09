@@ -19,25 +19,25 @@
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="benjamingatuhier.com"><img src="assets/images/team/benjamin.jpg" alt=""></a>
+                            <a href="benjamingatuhier.com"><img src="assets/images/team/benjamin.jpg" alt="" target="_blank"></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="benoitpalabre.fr"><img src="assets/images/team/benoit.png" alt=""></a>
+                            <a href="benoitpalabre.fr"><img src="assets/images/team/benoit.png" alt="" target="_blank"></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="louisparrouy.fr"><img src="assets/images/team/louis.jpg" alt=""></a>
+                            <a href="louisparrouy.fr"><img src="assets/images/team/louis.jpg" alt="" target="_blank"></a>
                         </figure>
                     </div><!-- /.thumb -->
 
                     <div class="col-xs-6 thumb">
                         <figure class="icon-overlay icn-link">
-                            <a href="guillaumeisselin.fr"><img src="assets/images/team/guillaume.jpeg" alt=""></a>
+                            <a href="guillaumeisselin.fr"><img src="assets/images/team/guillaume.jpeg" alt="" target="_blank"></a>
                         </figure>
                     </div><!-- /.thumb -->
 
@@ -58,9 +58,9 @@
             <div class="col-md-3 col-sm-6 inner">
                 <h4>Newsletter</h4>
                 <p>Pour être au courant des dernières nouveautés, abonnez vous à notre newsletter</p>
-                <form id="newsletter" class="form-inline newsletter" role="form">
+                <form id="newsletter" class="form-inline newsletter" role="form"  action="script_newsletter.php" method="post">
                     <label class="sr-only" for="exampleInputEmail">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Entrez votre email...">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email...">
                     <button type="submit" class="btn btn-default btn-submit">S'abonner</button>
                 </form>
             </div><!-- /.col -->
