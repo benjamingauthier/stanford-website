@@ -2,42 +2,41 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 include('connectbdd.php');
-
-    if (isset($_POST['stripeToken']))
-    {
-        echo "yolo1";
-        require_once 'stripe-php-2.1.1/init.php';
-                echo "yolo2";
-    // Set your secret key: remember to change this to your live secret key in production
-    // See your keys here https://dashboard.stripe.com/account/apikeys
-    \Stripe\Stripe::setApiKey("sk_test_0lTOy0erzGTnkhCBJgxrnmgu");
-    \Stripe\Stripe::setApiVersion("2015-04-07");
-echo "yolo22";
-    // Get the credit card details submitted by the form
-    $token = $_POST['stripeToken'];
-echo "yolo23";
-    $customer = \Stripe\Customer::create(array(
-      "source" => $token, // obtained from Stripe.js
-      "plan" => "standio",
-      "email" => $_POST['email']
-    ));
-    //var_dump($customer)
-            echo "yolo3";
-    if (!is_null($customer->id))
-    {
-            session_start();
-    $ndd = $_POST['ndd'];
-    $_SESSION['ndd'] = $ndd;
-                echo "yolo4";
-        $infos = $dbh->prepare('INSERT INTO users(stripe_id, ndd) VALUES (:id, :ndd)');
-          // On envois la requète
-          $infos->execute(array(
-            'id' => $customer->id,
-            'ndd' => $_POST['ndd']
-            //,'subid' => $subid)
-          ));
-                header('Location: end_subscriptions.php');   
-    }
+?>
+<div id="page-wrapper">
+	<?php 
+	if (isset($_POST['stripeToken']))
+	{
+		require_once 'stripe-php-2.1.1/init.php';
+	// Set your secret key: remember to change this to your live secret key in production
+	// See your keys here https://dashboard.stripe.com/account/apikeys
+	\Stripe\Stripe::setApiKey("sk_test_0lTOy0erzGTnkhCBJgxrnmgu");
+	\Stripe\Stripe::setApiVersion("2015-04-07");
+	// Get the credit card details submitted by the form
+	$token = $_POST['stripeToken'];
+	$customer = \Stripe\Customer::create(array(
+	  "source" => $token, // obtained from Stripe.js
+	  "plan" => "standio",
+	  "email" => "payinguser@example.com"
+	));
+	//var_dump($customer)
+	if (!is_null($customer->id))
+	{
+        $ndd = $_POST['ndd'];
+		$infos = $dbh->prepare('INSERT INTO users(stripe_id, ndd) VALUES (:id, :ndd)');
+		  // On envois la requète
+		  $infos->execute(array(
+		  	'id' => $customer->id,
+		  	'ndd' => $ndd
+		  	//,'subid' => $subid)
+		  ));
+        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $data = curl_exec($ch);
+        curl_close($ch);
+        echo $data;
+	}
 }
 
 include('header.php');

@@ -83,7 +83,7 @@
 													<p>Interactive</p>
 												</div><!-- /.info -->
 											</figcaption>
-											<img src="assets/images/art/work01-lg.jpg" alt="">
+											<img src="assets/images/screens/wide_1.png" alt="">
 										</figure>
 									</a>
 								</div><!-- /.item -->
@@ -97,7 +97,7 @@
 													<p>Identity</p>
 												</div><!-- /.info -->
 											</figcaption>
-											<img src="assets/images/art/work02-lg.jpg" alt="">
+											<img src="assets/images/screens/wide_2.png" alt="">
 										</figure>
 									</a>
 								</div><!-- /.item -->
@@ -111,7 +111,7 @@
 													<p>Identity</p>
 												</div><!-- /.info -->
 											</figcaption>
-											<img src="assets/images/art/work08-lg.jpg" alt="">
+											<img src="assets/images/screens/wide_3.png" alt="">
 										</figure>
 									</a>
 								</div><!-- /.item -->
@@ -125,7 +125,7 @@
 													<p>Interactive</p>
 												</div><!-- /.info -->
 											</figcaption>
-											<img src="assets/images/art/work15-lg.jpg" alt="">
+											<img src="assets/images/screens/wide_4.png" alt="">
 										</figure>
 									</a>
 								</div><!-- /.item -->
@@ -139,35 +139,7 @@
 													<p>Identity</p>
 												</div><!-- /.info -->
 											</figcaption>
-											<img src="assets/images/art/work09-lg.jpg" alt="">
-										</figure>
-									</a>
-								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
-										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Signwall</h2>
-													<p>Identity</p>
-												</div><!-- /.info -->
-											</figcaption>
-											<img src="assets/images/art/work16-lg.jpg" alt="">
-										</figure>
-									</a>
-								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
-										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Martin Johnson</h2>
-													<p>Identity</p>
-												</div><!-- /.info -->
-											</figcaption>
-											<img src="assets/images/art/work06-lg.jpg" alt="">
+											<img src="assets/images/screens/wide_5.png" alt="">
 										</figure>
 									</a>
 								</div><!-- /.item -->
