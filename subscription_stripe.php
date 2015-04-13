@@ -9,35 +9,35 @@ include('header.php');
 	<?php 
 	if (isset($_POST['stripeToken']))
 	{
-		echo "yolo1";
 		require_once 'stripe-php-2.1.1/init.php';
-				echo "yolo2";
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
 	\Stripe\Stripe::setApiKey("sk_test_0lTOy0erzGTnkhCBJgxrnmgu");
 	\Stripe\Stripe::setApiVersion("2015-04-07");
-echo "yolo22";
 	// Get the credit card details submitted by the form
 	$token = $_POST['stripeToken'];
-echo "yolo23";
 	$customer = \Stripe\Customer::create(array(
 	  "source" => $token, // obtained from Stripe.js
 	  "plan" => "standio",
 	  "email" => "payinguser@example.com"
 	));
 	//var_dump($customer)
-			echo "yolo3";
 	if (!is_null($customer->id))
 	{
-				echo "yolo4";
+        $ndd = $_POST['ndd'];
 		$infos = $dbh->prepare('INSERT INTO users(stripe_id, ndd) VALUES (:id, :ndd)');
 		  // On envois la requète
 		  $infos->execute(array(
 		  	'id' => $customer->id,
-		  	'ndd' => $_POST['ndd']
+		  	'ndd' => $ndd
 		  	//,'subid' => $subid)
 		  ));
-               
+        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        $data = curl_exec($ch);
+        curl_close($ch);
+        echo $data;
 	}
 }
 	?>
