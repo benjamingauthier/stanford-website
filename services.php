@@ -75,73 +75,27 @@
 							<div id="owl-work-samples-big" class="owl-carousel owl-outer-nav owl-ui-lg">
 								
 								<div class="item">
-									<a href="portfolio-post.html">
 										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Appscreen Dashboard</h2>
-													<p>Interactive</p>
-												</div><!-- /.info -->
-											</figcaption>
 											<img src="assets/images/screens/wide_1.png" alt="">
 										</figure>
-									</a>
 								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
+
+                                <div class="item">
 										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Grand Motel</h2>
-													<p>Identity</p>
-												</div><!-- /.info -->
-											</figcaption>
 											<img src="assets/images/screens/wide_2.png" alt="">
 										</figure>
-									</a>
 								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
+
+                                <div class="item">
 										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Brand Stationery</h2>
-													<p>Identity</p>
-												</div><!-- /.info -->
-											</figcaption>
 											<img src="assets/images/screens/wide_3.png" alt="">
 										</figure>
-									</a>
 								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
+
+                                <div class="item">
 										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Appscreen Dashboard</h2>
-													<p>Interactive</p>
-												</div><!-- /.info -->
-											</figcaption>
 											<img src="assets/images/screens/wide_4.png" alt="">
 										</figure>
-									</a>
-								</div><!-- /.item -->
-								
-								<div class="item">
-									<a href="portfolio-post.html">
-										<figure>
-											<figcaption class="text-overlay">
-												<div class="info big">
-													<h2>Astor & Yancy</h2>
-													<p>Identity</p>
-												</div><!-- /.info -->
-											</figcaption>
-											<img src="assets/images/screens/wide_5.png" alt="">
-										</figure>
-									</a>
 								</div><!-- /.item -->
 								
 							</div><!-- /.owl-carousel -->
