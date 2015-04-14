@@ -36,6 +36,7 @@ include('connectbdd.php');
         $data = curl_exec($ch);
         curl_close($ch);
         echo $data;
+        header('Location: informations');   //end_subscriptions.php
 	}
 }
 
