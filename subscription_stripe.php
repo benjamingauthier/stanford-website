@@ -1,16 +1,14 @@
 <?php
+session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 include('connectbdd.php');
-?>
-<div id="page-wrapper">
-	<?php 
 	if (isset($_POST['stripeToken']))
 	{
 		require_once 'stripe-php-2.1.1/init.php';
 	// Set your secret key: remember to change this to your live secret key in production
 	// See your keys here https://dashboard.stripe.com/account/apikeys
-	\Stripe\Stripe::setApiKey("sk_test_0lTOy0erzGTnkhCBJgxrnmgu");
+	\Stripe\Stripe::setApiKey("sk_live_uEeuBcFcKjTurmWRCNJzcDUa");
 	\Stripe\Stripe::setApiVersion("2015-04-07");
 	// Get the credit card details submitted by the form
 	$token = $_POST['stripeToken'];
@@ -22,7 +20,8 @@ include('connectbdd.php');
 	//var_dump($customer)
 	if (!is_null($customer->id))
 	{
-        $ndd = $_POST['ndd'];
+	    $ndd = $_POST['ndd'];
+        $_SESSION['ndd'] = $ndd;
 		$infos = $dbh->prepare('INSERT INTO users(stripe_id, ndd) VALUES (:id, :ndd)');
 		  // On envois la requète
 		  $infos->execute(array(
@@ -30,18 +29,20 @@ include('connectbdd.php');
 		  	'ndd' => $ndd
 		  	//,'subid' => $subid)
 		  ));
-        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd);
+        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd.'.ovh');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         $data = curl_exec($ch);
         curl_close($ch);
-        echo $data;
+        header('Location: informations');   //end_subscriptions.php
+        exit();
 	}
 }
 
 include('header.php');
 
 ?>
+<div id="page-wrapper">
  <main>
     <div class="container inner">
         <div class="row">
@@ -66,12 +67,13 @@ include('header.php');
                                             <span class="input-group-addon" id="basic-addon2">.fr</span>
                                             <span class="error">A valid url is required</span>
                                             &nbsp;<i id="result" class="fa fa-2x"></i>
+                                               
                                         </div>
                                     </div><!-- /.col -->
                                 </div><!-- /.row -->
                                 <script
             				    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            				    data-key="pk_test_I2Y93k4JEIJJFbeImUxYoFeX"
+            				    data-key="pk_live_2Yb83PExQsqmqiPRbFKS2XbV"
             				    data-amount="399"
             				    data-name="Standio.fr"
             				    data-email="<?php echo $email; ?>"
@@ -81,7 +83,6 @@ include('header.php');
             				    data-description="Abonnement Standio.fr">
             				  </script>
                             </form>
-
 				<br>
 				<p class="lead">Le paiement de votre abonnement sera géré par notre partenaire <a href="http://stripe.com">Stripe.com</a>.<br>Aucune donnée bancaire ne transite par nos serveurs, et la connexion est 100% sécurisée par Stripe.</p>
            </form>
@@ -92,6 +93,20 @@ include('header.php');
 
             </div><!-- ./col -->
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Attention</h4>
+      </div>
+      <div class="modal-body">
+        Seul les minuscules et les tirets sont autorisés. 
+      </div>
+    </div>
+  </div>
+</div>
             <div class="col-md-4">
 
 
@@ -239,28 +254,38 @@ include('header.php');
     <!-- ============================================================= MAIN : END ============================================================= -->
 
 <script language="JavaScript">
-    $('#ndd').keyup(function() {
-        var $th = $(this);
-        $th.val( $th.val().replace(/[^a-zA-Z0-9]/g, function(str) { alert('You typed " ' + str + ' ".\n\nPlease use only letters and numbers.'); return ''; } ) );
-    });
+
     function ndd_validation(element)
     {
-        if($('#ndd').val())
-        {
-            var input=$(this);
-            if (input.val().substring(0,4)=='www.'){input.val('http://www.'+input.val().substring(4));}
-            var re = /(http|ftp|https):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])?/;
-            var is_url=re.test(input.val());
-            if(is_url){input.removeClass("invalid").addClass("valid");}
-            else{input.removeClass("valid").addClass("invalid");}
-            $.ajax({
-                url: 'https://standio.fr/checkdomain.php',
-                type: 'GET',
-                dataType: 'json',
-                data: {
-                    domain: $('#ndd').val()+'.fr'
-                },
-                error: function() {
+       
+         $('#ndd').keyup(function() {
+                    var $th = $(this);
+                        $th.val( $th.val().replace(/[^a-z-]|\./g, function(str) { 
+                        $('#myModal').modal('show');
+                        return ''; 
+                         
+                        } ) 
+                    );
+        });
+        $.ajax({
+            url: 'https://standio.fr/checkdomain.php',
+            type: 'GET',
+            dataType: 'json',
+            data: {
+                domain: $('#ndd').val()+'.fr'
+            },
+            error: function() {
+                $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
+                $('button').prop('disabled',true);
+            },
+            success: function(data) {
+                if (data.available == true)
+                {
+                    $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
+                    $('button').prop('disabled',false);
+                }
+                else
+                {
                     $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
                     $('button').prop('disabled',true);
                 },

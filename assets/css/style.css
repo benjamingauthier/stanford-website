@@ -27,12 +27,6 @@ span#basic-addon2 {
     float: none;
 }
 
-.error{
-    display: none;
-    margin-left: 10px;
-}
-
-.error_show{
-    color: red;
-    margin-left: 10px;
+div#myModal{
+    margin-top: 100px;
 }
