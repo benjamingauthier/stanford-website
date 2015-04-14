@@ -156,7 +156,7 @@
 								<h1>Créez votre propre site</h1>
 								<p>Quelques clics, un peu de contenu, et vous voilà fin prêt à vous présenter sous votre meilleur jour !</p>
 							</header>
-							<a href="#" class="btn btn-large">C'est parti !</a>
+							<a href="inscription" class="btn btn-large">C'est parti !</a>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->

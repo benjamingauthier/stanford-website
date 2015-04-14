@@ -31,7 +31,7 @@
 										<span class="period">/ Mo</span>
 									</div><!-- /.price -->
 									
-									<a href="#" class="btn">C'est parti</a>
+									<a href="inscription" class="btn">C'est parti</a>
 								</header>
 								
 								<ul class="features">
@@ -107,7 +107,7 @@
 				<div class="container inner-sm">
 					<div class="row">
 						<div class="col-sm-10 center-block text-center">
-							<h1 class="single-block">D'autres questions ?<a href="contact.php" class="btn btn-large">Posez les !</a></h1>
+							<h1 class="single-block">D'autres questions ?<a href="contact" class="btn btn-large">Posez les !</a></h1>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
