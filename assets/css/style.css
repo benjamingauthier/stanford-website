@@ -26,3 +26,13 @@ span#basic-addon2 {
     margin: 0 auto;
     float: none;
 }
+
+.error{
+    display: none;
+    margin-left: 10px;
+}
+
+.error_show{
+    color: red;
+    margin-left: 10px;
+}

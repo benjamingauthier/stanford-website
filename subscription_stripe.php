@@ -64,6 +64,7 @@ include('header.php');
                                         <div class="input-group">
                                               <input type="text" name="ndd" id="ndd" class="form-control" placeholder="Site web" onkeyup="ndd_validation()">
                                             <span class="input-group-addon" id="basic-addon2">.fr</span>
+                                            <span class="error">A valid url is required</span>
                                             &nbsp;<i id="result" class="fa fa-2x"></i>
                                         </div>
                                     </div><!-- /.col -->
@@ -238,32 +239,45 @@ include('header.php');
     <!-- ============================================================= MAIN : END ============================================================= -->
 
 <script language="JavaScript">
+    $('#ndd').keyup(function() {
+        var $th = $(this);
+        $th.val( $th.val().replace(/[^a-zA-Z0-9]/g, function(str) { alert('You typed " ' + str + ' ".\n\nPlease use only letters and numbers.'); return ''; } ) );
+    });
     function ndd_validation(element)
     {
-        $.ajax({
-            url: 'https://standio.fr/checkdomain.php',
-            type: 'GET',
-            dataType: 'json',
-            data: {
-                domain: $('#ndd').val()+'.fr'
-            },
-            error: function() {
-                $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
-                $('button').prop('disabled',true);
-            },
-            success: function(data) {
-                if (data.available == true)
-                {
-                    $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
-                    $('button').prop('disabled',false);
-                }
-                else
-                {
+        if($('#ndd').val())
+        {
+            var input=$(this);
+            if (input.val().substring(0,4)=='www.'){input.val('http://www.'+input.val().substring(4));}
+            var re = /(http|ftp|https):\/\/[\w-]+(\.[\w-]+)+([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])?/;
+            var is_url=re.test(input.val());
+            if(is_url){input.removeClass("invalid").addClass("valid");}
+            else{input.removeClass("valid").addClass("invalid");}
+            $.ajax({
+                url: 'https://standio.fr/checkdomain.php',
+                type: 'GET',
+                dataType: 'json',
+                data: {
+                    domain: $('#ndd').val()+'.fr'
+                },
+                error: function() {
                     $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
                     $('button').prop('disabled',true);
+                },
+                success: function(data) {
+                    if (data.available == true)
+                    {
+                        $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
+                        $('button').prop('disabled',false);
+                    }
+                    else
+                    {
+                        $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
+                        $('button').prop('disabled',true);
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 </script>
 <?php include('footer.php') ?>
