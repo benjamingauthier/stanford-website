@@ -26,3 +26,7 @@ span#basic-addon2 {
     margin: 0 auto;
     float: none;
 }
+
+div#myModal{
+    margin-top: 100px;
+}
