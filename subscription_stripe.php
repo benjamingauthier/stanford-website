@@ -67,9 +67,13 @@ include('header.php');
                                             <span class="input-group-addon" id="basic-addon2">.fr</span>
                                             &nbsp;<i id="result" class="fa fa-2x"></i>
                                                
+                                        </div><br>
+                                        <div class="input-group">
+                                           <input type="checkbox" id="checkbox_cu" value="value">
+                                            <span class="label-group" for="checkbox_cu"><a id="link-cu" role="button"onclick=" $('#modalCu').modal('show');">J'accepte les conditions d'utilisations<br> et je m'engage pour 6 mois</a></span>
                                         </div>
                                     </div><!-- /.col -->
-                                </div><!-- /.row -->
+                                </div><!-- /.row --><br>
                                 <script
             				    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             				    data-key="pk_live_2Yb83PExQsqmqiPRbFKS2XbV"
@@ -112,7 +116,7 @@ include('header.php');
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Attention</h4>
+                            <h4 class="modal-title" id="myModalLabel">Conditions d'utilisations</h4>
                         </div>
                         <div class="modal-body">
                             <h2>Objet</h2>
@@ -296,8 +300,8 @@ include('header.php');
                                 Conditions d'Utilisation disponible sur le site www.STANDiO.fr.</h4>
 
                             <h2>Durée et résiliation</h2>
-                            <h4>Le présent contrat est conclu pour une durée indéterminée à compter de l'Utilisation du Service
-                                par l'Utilisateur.</h4>
+                            <h4>Le présent contrat est conclu pour une durée de 6 mois à compter de l'Utilisation du Service
+                                par l'Utilisateur. Ce dernier peut résilier son abonnement au terme de cette durée.</h4>
 
                             <h2>Droit applicable et juridiction compétente</h2>
                             <h4>Les règles en matière de droit, applicables aux contenus et aux transmissions de données sur et
@@ -455,9 +459,15 @@ include('header.php');
     </main>
 
     <!-- ============================================================= MAIN : END ============================================================= -->
-
-<script language="JavaScript">
-
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#checkbox_cu').change(function(){
+            if (this.checked && $("#result").hasClass("fa-check-circle")) {
+                $('button').prop('disabled',false);
+            }
+        });
+    });
   function ndd_validation(element)
     {
        
@@ -485,7 +495,6 @@ include('header.php');
                 if (data.available == true)
                 {
                     $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
-                    $('button').prop('disabled',false);
                 }
                 else
                 {
