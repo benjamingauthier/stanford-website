@@ -62,7 +62,7 @@
 
                 <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-                <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimple.png" class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimplealone.png" class="logo" alt=""></a>
 
                 <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
@@ -77,7 +77,7 @@
 
         <!-- ============================================================= LOGO ============================================================= -->
 
-        <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimple.png" class="logo" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/images/standiosimplealone.png" class="logo" alt=""></a>
 
         <!-- ============================================================= LOGO : END ============================================================= -->
 
