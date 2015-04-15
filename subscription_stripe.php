@@ -29,7 +29,7 @@ include('connectbdd.php');
 		  	'ndd' => $ndd
 		  	//,'subid' => $subid)
 		  ));
-        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd.'.ovh');
+        $ch = curl_init("http://vps141243.ovh.net/respond.php?domain=" . $ndd.'.fr');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         $data = curl_exec($ch);
@@ -65,7 +65,6 @@ include('header.php');
                                         <div class="input-group">
                                               <input type="text" name="ndd" id="ndd" class="form-control" placeholder="Site web" onkeyup="ndd_validation()">
                                             <span class="input-group-addon" id="basic-addon2">.fr</span>
-                                            <span class="error">A valid url is required</span>
                                             &nbsp;<i id="result" class="fa fa-2x"></i>
                                                
                                         </div>
@@ -255,7 +254,7 @@ include('header.php');
 
 <script language="JavaScript">
 
-    function ndd_validation(element)
+  function ndd_validation(element)
     {
        
          $('#ndd').keyup(function() {
@@ -288,21 +287,9 @@ include('header.php');
                 {
                     $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
                     $('button').prop('disabled',true);
-                },
-                success: function(data) {
-                    if (data.available == true)
-                    {
-                        $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
-                        $('button').prop('disabled',false);
-                    }
-                    else
-                    {
-                        $("#result").removeClass('fa-check-circle yellow').addClass("fa-times-circle black")
-                        $('button').prop('disabled',true);
-                    }
                 }
-            });
-        }
+            }
+        });
     }
 </script>
 <?php include('footer.php') ?>
