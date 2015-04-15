@@ -27,8 +27,8 @@
 									
 									<div class="price">
 										<span class="currency">€</span>
-										<span class="amount">3,99</span>
-										<span class="period">/ Mo</span>
+										<span class="amount">3,99</span><br>
+										<span class="period">/ Mois (engament de 6 mois)</span>
 									</div><!-- /.price -->
 									
 									<a href="inscription" class="btn">C'est parti</a>

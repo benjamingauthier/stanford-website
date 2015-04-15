@@ -12,11 +12,11 @@
 			<section id="hero">
 				<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 					
-					<div class="item" style="background-image: url(assets/images/etu_3.jpg);">
+					<div class="item" style="background-image: url(assets/images/etu_6.jpg);">
 						<div class="container">
 							<div class="caption vertical-center text-center">
 								
-								<h1 class="fadeInRight-1 dark-bg light-color">Un site pensé pour les étudiants !</h1>
+								<h1 class="fadeInRight-1 dark-bg light-color"><span>Un site pensé pour les étudiants !</span></h1>
 								<p class="fadeInRight-2 dark-bg light-color">Créez votre site web avec un design professionel en quelques minutes et démarquez vous afin de trouver un stage ou un job ! Customisez votre site facilement </p>
 								<div class="fadeInDown-3">
 									<a href="inscription" class="btn btn-large">Commencez dès maintenant</a>
