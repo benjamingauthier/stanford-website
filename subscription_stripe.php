@@ -461,10 +461,15 @@ include('header.php');
     <!-- ============================================================= MAIN : END ============================================================= -->
 <script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">
+ $('.stripe-button-el').prop("disabled", true);
     $(document).ready(function() {
         $('#checkbox_cu').change(function(){
             if (this.checked && $("#result").hasClass("fa-check-circle")) {
                 $('button').prop('disabled',false);
+            }
+            else
+            {
+                $('button').prop('disabled',true);
             }
         });
     });
@@ -495,6 +500,10 @@ include('header.php');
                 if (data.available == true)
                 {
                     $("#result").removeClass('fa-times-circle black').addClass("fa-check-circle yellow")
+                        if ( $('#checkbox_cu').prop('checked') && $("#result").hasClass("fa-check-circle")) {
+                            $('button').prop('disabled',false);
+                        }
+                        
                 }
                 else
                 {

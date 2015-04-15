@@ -96,13 +96,13 @@ $codehtml=
                                                             <p style='font-family: 'Lato'; font-weight: normal; font-size: 15px; line-height: 20px; color: #595959; margin-top: 0px; margin-left: 0; margin-bottom: 15px; margin-right: 0; padding: 0; text-align:justify;'>
                                                                 <br><span style='color: #000;font-weight: bold;'>Félicitations !</span>
                                                                 <br />
-                                    <span> Votre inscription sur STANDiO est confirmée ! Réalisez dès à présent votre site web en suivant ce lien : <a href='http://app.".$ndd.".mink.so' style='color: #f1c40f' onmouseover='this.style.color='#000000';' onmouseout='this.style.color='#f1c40f';'>app.".$ndd.".mink.so</a>. Votre PASSCODE est ilovestandio<br>
-                                    Votre site <br><br>
+                                    <span> Votre inscription sur STANDiO est confirmée ! Réalisez dès à présent votre site web en suivant ce lien : <a href='http://app.".$ndd.".mink.so' style='color: #f1c40f' onmouseover='this.style.color='#000000';' onmouseout='this.style.color='#f1c40f';'>app.".$ndd.".mink.so</a>. Votre PASSCODE est ilovestandio.<br><br>
+                      
 
-                                      Nous procédons actuellement à l'enregistrement de votre nom de domaine. Vous pouvez cependant commencer à créer votre site, nous transférerons automatiquement ce dernier sur votre nom de domaine une fois son dépot effectué.<br>
+                                      Nous procédons actuellement à l'enregistrement de votre nom de domaine. Vous pouvez cependant commencer à créer votre site, nous transférerons automatiquement ce dernier sur votre nom de domaine une fois son dépot effectué.<br><br>
                                       Un fois votre site créé vous pouvez y accéder via <a href='http://".$ndd.".mink.so' style='color: #f1c40f' onmouseover='this.style.color='#000000';' onmouseout='this.style.color='#f1c40f';'>".$ndd.".mink.so</a>.
 <br>
-Enfin, pour apporter de nouvelles modifications à ce dernier, suivez ce lien<a href='http://app.".$ndd.".mink.so/login/".$ndd."' style='color: #f1c40f' onmouseover='this.style.color='#000000';' onmouseout='this.style.color='#f1c40f';'>app.".$ndd.".mink.so</a>.
+Enfin, pour apporter de nouvelles modifications à ce dernier, suivez ce lien <a href='http://app.".$ndd.".mink.so/login/".$ndd."' style='color: #f1c40f' onmouseover='this.style.color='#000000';' onmouseout='this.style.color='#f1c40f';'>app.".$ndd.".mink.so/login/".$ndd."</a>.
 									</span>
                                                             <p>
                                                             </p>

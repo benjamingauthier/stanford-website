@@ -28,7 +28,7 @@
                                     <input type="text" name="address" id="address" class="form-control" placeholder="Adresse">
                                     <input type="text" name="postcode" id="postcode" class="form-control" placeholder="Code postal">
                                     <input type="text" name="city" id="city" class="form-control" placeholder="Ville">
-                                    <button type="submit" class="btn btn-default btn-submit">Envoyer le message</button>
+                                    <button type="submit" class="btn btn-default btn-submit">Valider mon inscription</button>
                                 </div>
                             </div>
                         </form>
